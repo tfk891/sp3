@@ -1,6 +1,4 @@
 (async function () { 
-	const data = await fetch("data.json"); 
-	const res = await data.json(); 
 
 	let employees = res; 
 	let selectedEmployeeId = employees[0].id; 
